@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        width: 1920px;
+        height: 860px;
+        gap: 0px;
+        opacity: 0px;
+        background-image: url(https://s3-alpha-sig.figma.com/img/e4e9/4bcd/6013879f33e24c0450bcde15d215f8ae?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AUbylQwZYNiY7Zjif5P5Ee4ycPwvUCmYbdlEc2wVgFGXZXzrTbpSV3qS59jl-ZwkcGzWILkjEq8qBonmDH8VTN5YmIZ35JYk7~AxO9zqXN34EqzaxqFonbso55yPl0nC0Ovd5zvHBP-PPVBh9rXiBhZw5a3CtLXQF456IDqLlXOUQ9jEKa-0O4RTiJN7~4r0KrZRq-YCptbwrFMeBm8z0W~oW4tlrw0HFbuPUYOMzIe1iV21HJotL8dV~W0DVcgJ~KbWqeNunUOpILMs3ax2QO3tPPvR0Qijzfr1iBt1WGJH1eoE2MEC52M1L0eq2ikajMpJaxGKP9UiC4msdaSFSQ__);
+      }
+
+      nav {
+        width: 1320px;
+        height: 88px;
+        position: absolute;
+        left: 300px;
+        padding: 21.94px 15px 21.93px 15px;
+        gap: 0px;
+        opacity: 0px;
+      }
+
+      #box1 {
+        width: 808.84px;
+        height: 44.13px;
+        top: 21.94px;
+        left: 15px;
+        gap: 0px;
+        opacity: 0px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      #box2 {
+        width: 367.92px;
+        height: 44px;
+        position: absolute;
+        top: 22px;
+        left: 937.08px;
+        gap: 0px;
+        opacity: 0px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .logo {
+        width: 167px;
+        height: 32px;
+        gap: 0px;
+        opacity: 0px;
+      }
+
+      #box1 > span:nth-of-type(1) {
+        width: 41.2px;
+        height: 28.13px;
+        top: 8px;
+        left: 20px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 14.77px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        color: rgba(235, 102, 43, 1);
+      }
+
+      #box1 > span:nth-of-type(2) {
+        width: 30.31px;
+        height: 28.13px;
+        top: 8px;
+        left: 20px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 14.3px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #box1 > span:nth-of-type(3) {
+        width: 79.28px;
+        height: 28.13px;
+        top: 8px;
+        left: 20px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 14.77px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #box1 > span:nth-of-type(4) {
+        width: 64.65px;
+        height: 28.13px;
+        top: 8px;
+        left: 20px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 14.88px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #box1 > span:nth-of-type(5) {
+        width: 40.84px;
+        height: 28.13px;
+        top: 8px;
+        left: 20px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 13.95px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #box1 > span:nth-of-type(6) {
+        width: 56.76px;
+        height: 28.13px;
+        margin-top: 0px;
+        top: 8px;
+        left: 20px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #box2 > span:nth-of-type(1) {
+        width: 29.06px;
+        height: 20px;
+        top: 11px;
+        left: 20px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 13.83px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #box2 > span:nth-of-type(2) {
+        width: 31.68px;
+        height: 28.13px;
+        top: 7.94px;
+        left: 141.86px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 14.53px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #box2 > span:nth-of-type(3) {
+        width: 51.47px;
+        height: 28.13px;
+        top: 7.94px;
+        left: 203.34px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 14.53px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      button {
+        width: 83.31px;
+        height: 44px;
+        left: 284.61px;
+        padding: 12px 20.8px 12px 21px;
+        gap: 0px;
+        border-radius: 200px;
+        border: 1px;
+        opacity: 0px;
+        border: 1px solid rgba(5, 7, 60, 1);
+      }
+
+      button > p {
+        width: 41.51px;
+        height: 20px;
+        margin-top: -6px;
+        top: 12px;
+        left: 21px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 14.3px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: center;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #box3 {
+        width: 880px;
+        height: 254px;
+        position: absolute;
+        top: 147px;
+        left: 507px;
+        padding: 0px 15px 0px 15px;
+        gap: 0px;
+        opacity: 0px;
+      }
+
+      #box3 > h2 {
+        width: 664px;
+        height: 151px;
+        position: absolute;
+        margin-bottom: 0px;
+        top: -4px;
+        left: 108.09px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 72px;
+        text-align: center;
+        background: linear-gradient(90.84deg, #ee8c61 27.01%, #4c43c4 87.3%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 1;
+        margin-top: 0px;
+      }
+
+      #weather {
+        width: 850px;
+        height: 80px;
+        box-sizing: border-box;
+        position: absolute;
+        margin-top: 0px;
+        top: 174px;
+        left: 15px;
+        padding: 10px 0px 0px 0px;
+        gap: 0px;
+        border-radius: 200px;
+        opacity: 0px;
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.05);
+      }
+
+      #w1 {
+        width: 249.33px;
+        height: 50px;
+        margin-top: 5px;
+        top: 5px;
+        left: 10px;
+        padding: 0px 60.97px 0px 0px;
+        gap: 0px;
+        opacity: 0px;
+
+        position: absolute;
+      }
+
+      .icon1 {
+        width: 50px;
+        height: 50px;
+        box-sizing: border-box;
+
+        padding: 15px 14.8px 15px 15px;
+        gap: 0px;
+        border-radius: 50px;
+        opacity: 0px;
+        background: rgba(235, 102, 43, 0.05);
+      }
+
+      #where {
+        width: 128.36px;
+        height: 43.59px;
+        position: absolute;
+        top: 3.2px;
+        left: 60px;
+        padding: 0px 0px 1.59px 0px;
+        gap: 0px;
+        opacity: 0px;
+
+        margin-top: 0px;
+      }
+
+      #where > p:nth-of-type(1) {
+        color: rgba(5, 7, 60, 1);
+        position: absolute;
+        margin-top: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 14.88px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+        width: 46.67px;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;
+      }
+
+      #where > p:nth-of-type(2) {
+        width: 128.56px;
+        height: 18px;
+        position: absolute;
+        margin-top: 0px;
+        top: 24px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 13.67px;
+        font-weight: 400;
+        line-height: 19.6px;
+        text-align: left;
+        color: rgba(113, 113, 113, 1);
+      }
+
+      #w2 {
+        width: 249.33px;
+        height: 50px;
+        top: 5px;
+        left: 259.33px;
+        padding: 0px 18.33px 0px 0px;
+        gap: 0px;
+        opacity: 0px;
+        margin-top: 5px;
+        position: absolute;
+      }
+
+      #when {
+        width: 171px;
+        height: 45.59px;
+        top: 2.2px;
+        left: 60px;
+        gap: 0px;
+        opacity: 0px;
+        margin-top: 0px;
+        position: absolute;
+      }
+
+      #when > p:nth-of-type(1) {
+        width: 41.31px;
+        height: 24px;
+        position: absolute;
+        margin-top: 0px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 14.88px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #when > p:nth-of-type(2) {
+        width: 151.84px;
+        height: 18px;
+        position: absolute;
+        margin-top: 27px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 13.34px;
+        font-weight: 400;
+        line-height: 19.6px;
+        text-align: left;
+        color: rgba(0, 0, 0, 1);
+      }
+
+      #w3 {
+        width: 249.34px;
+        height: 50px;
+        top: 5px;
+        left: 508.66px;
+        padding: 0px 120.15px 0px 0px;
+        gap: 0px;
+        opacity: 0px;
+        margin-top: 5px;
+        position: absolute;
+      }
+
+      #tour {
+        width: 69.19px;
+        height: 43.59px;
+        top: 3.2px;
+        left: 60px;
+        padding: 0px 0px 1.59px 0px;
+        gap: 0px;
+        opacity: 0px;
+
+        margin-top: 0px;
+        position: absolute;
+      }
+
+      #tour > p:nth-of-type(1) {
+        width: 69.39px;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        position: absolute;
+        margin-top: 0px;
+        font-size: 14.41px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #tour > p:nth-of-type(2) {
+        width: 46.26px;
+        height: 18px;
+        top: 24px;
+        gap: 0px;
+        opacity: 0px;
+        font-size: 13.78px;
+        font-weight: 400;
+        line-height: 19.6px;
+        text-align: left;
+        color: rgba(113, 113, 113, 1);
+        font-family: "Inter", sans-serif;
+        position: absolute;
+        margin-top: 0px;
+      }
+
+      #weatherDiv {
+        justify-content: center;
+        display: flex;
+      }
+
+      #w4 {
+        width: 62px;
+        height: 60px;
+        top: 10px;
+        left: 778px;
+        gap: 0px;
+        border-radius: 200px;
+        opacity: 0px;
+        position: absolute;
+        box-sizing: border-box;
+      }
+
+      .icon2 {
+        background: rgba(235, 102, 43, 1);
+        width: 62px;
+        height: 60px;
+        position: absolute;
+        top: 10px;
+        left: 778px;
+        gap: 0px;
+        border-radius: 200px;
+        opacity: 0px;
+      }
+
+      #container2 {
+        width: 1320px;
+        height: 600px;
+        position: absolute;
+        top: 972px;
+        left: 300px;
+        gap: 0px;
+        opacity: 0px;
+      }
+
+      #container2 > p:nth-of-type(1) {
+        width: 294.31px;
+        height: 45px;
+        position: absolute;
+        margin-top: 0px;
+        top: 5px;
+        left: 15px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 29.88px;
+        font-weight: 700;
+        line-height: 45px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #container2 > p:nth-of-type(2) {
+        width: 44.79px;
+        height: 28.13px;
+        position: absolute;
+        margin-top: 0px;
+        top: 21.88px;
+        left: 1234.41px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 14.3px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #container3 {
+        display: grid;
+        grid-template-areas:
+          "cruise beach city city"
+          "cruise museum food hiking";
+      }
+
+      #cruise {
+        width: 410px;
+        height: 510px;
+        top: 90px;
+        left: 15px;
+        gap: 0px;
+        border-radius: 12px 0px 0px 0px;
+        opacity: 0px;
+        grid-area: cruise;
+        position: absolute;
+      }
+
+      #beach {
+        width: 300px;
+        height: 240px;
+        top: 90px;
+        left: 455px;
+        gap: 0px;
+        border-radius: 12px 0px 0px 0px;
+        opacity: 0px;
+        grid-area: beach;
+        position: absolute;
+      }
+
+      #city {
+        width: 520px;
+        height: 240px;
+        top: 90px;
+        left: 785px;
+        gap: 0px;
+        border-radius: 12px 0px 0px 0px;
+        opacity: 0px;
+        grid-area: city;
+        position: absolute;
+      }
+
+      #museum {
+        width: 300px;
+        height: 240px;
+        top: 360px;
+        left: 455px;
+        gap: 0px;
+        border-radius: 12px 0px 0px 0px;
+        opacity: 0px;
+        grid-area: museum;
+        position: absolute;
+      }
+
+      #food {
+        width: 190px;
+        height: 240px;
+        top: 360px;
+        left: 785px;
+        gap: 0px;
+        border-radius: 12px 0px 0px 0px;
+        opacity: 0px;
+        grid-area: food;
+        position: absolute;
+      }
+
+      #hiking {
+        width: 300px;
+        height: 240px;
+        top: 360px;
+        left: 1005px;
+        gap: 0px;
+        border-radius: 12px 0px 0px 0px;
+        opacity: 0px;
+        grid-area: hiking;
+        position: absolute;
+      }
+
+      #container4 {
+        width: 1320px;
+        height: 296.38px;
+        position: absolute;
+        top: 1677px;
+        left: 300px;
+        gap: 0px;
+        opacity: 0px;
+      }
+
+      #container4 > p {
+        width: 267.33px;
+        height: 45px;
+        left: 15px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 29.3px;
+        font-weight: 700;
+        line-height: 45px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+        position: absolute;
+        margin-top: 0px;
+      }
+
+      #container4 > img:nth-of-type(1) {
+        width: 60px;
+        height: 60px;
+        top: 85px;
+        left: 15px;
+        gap: 0px;
+        opacity: 0px;
+        position: absolute;
+      }
+
+      #container4 > img:nth-of-type(2) {
+        width: 60px;
+        height: 60px;
+        top: 85px;
+        left: 345px;
+        gap: 0px;
+        opacity: 0px;
+        position: absolute;
+      }
+
+      #container4 > img:nth-of-type(3) {
+        width: 60px;
+        height: 60px;
+        top: 85px;
+        left: 675px;
+        gap: 0px;
+        opacity: 0px;
+        position: absolute;
+      }
+
+      #container4 > img:nth-of-type(4) {
+        width: 60px;
+        height: 60px;
+        top: 85px;
+        left: 1005px;
+        gap: 0px;
+        opacity: 0px;
+        position: absolute;
+      }
+
+      #container4 > h1:nth-of-type(1) {
+        width: 153.14px;
+        height: 27px;
+        position: absolute;
+        margin-top: 0px;
+        top: 175px;
+        left: 15px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 17.72px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #container4 > h1:nth-of-type(2) {
+        width: 204.4px;
+        height: 27px;
+        position: absolute;
+        margin-top: 0px;
+        top: 175px;
+        left: 345px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 17.72px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #container4 > h1:nth-of-type(3) {
+        width: 158.56px;
+        height: 27px;
+        position: absolute;
+        margin-top: 0px;
+        top: 175px;
+        left: 675px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #container4 > h1:nth-of-type(4) {
+        width: 200.7px;
+        height: 27px;
+        position: absolute;
+        margin-top: 0px;
+        top: 175px;
+        left: 1005px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 17.86px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #container4 > h2:nth-of-type(1) {
+        font-family: "Inter", sans-serif;
+        position: absolute;
+        margin-top: 0px;
+        font-size: 14.88px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        width: 255.53px;
+        height: 76.25px;
+        top: 216px;
+        left: 15px;
+        gap: 0px;
+        opacity: 0px;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #container4 > h2:nth-of-type(2) {
+        width: 256.95px;
+        height: 76.25px;
+        position: absolute;
+        margin-top: 0px;
+        top: 216px;
+        left: 345px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 14.65px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #container4 > h2:nth-of-type(3) {
+        width: 236.54px;
+        height: 48.13px;
+        position: absolute;
+        margin-top: 0px;
+        top: 216px;
+        left: 675px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 14.65px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+
+      #container4 > h2:nth-of-type(4) {
+        width: 241.18px;
+        height: 48.13px;
+        position: absolute;
+        margin-top: 0px;
+        top: 216px;
+        left: 1005px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter", sans-serif;
+        font-size: 14.53px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        color: rgba(5, 7, 60, 1);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav>
+        <div id="box1">
+          <img class="logo" src="./logo.svg" alt="" />
+          <span>Home</span>
+          <span>Tour</span>
+          <span>Destination</span>
+          <span>Activities</span>
+          <span>Pages</span>
+          <span>Contact</span>
+        </div>
+        <div id="box2">
+          <span>USD</span>
+          <span>Help</span>
+          <span>Sign up</span>
+          <button>
+            <p>Log in</p>
+          </button>
+        </div>
+      </nav>
+      <div id="box3">
+        <h2>Life Is Adventure Make The Best Of It</h2>
+        <div id="weather">
+          <div id="weatherDiv">
+            <div id="w1">
+              <div class="icon1"></div>
+              <div id="where">
+                <p>Where</p>
+                <p>Search destinations</p>
+              </div>
+            </div>
+
+            <div id="w2">
+              <div class="icon1"></div>
+              <div id="when">
+                <p>When</p>
+                <p>February 05 ~ March 14</p>
+              </div>
+            </div>
+
+            <div id="w3">
+              <div class="icon1"></div>
+              <div id="tour">
+                <p>Tour Type</p>
+                <p>All tour</p>
+              </div>
+            </div>
+
+            <div class="icon2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="container2">
+      <p>Popular things to do</p>
+      <p>See all</p>
+      <div id="container3">
+        <img id="cruise" src="./crusies.svg" alt="" />
+        <img id="beach" src="./beach.svg" alt="" />
+        <img id="city" src="./city.svg" alt="" />
+        <img id="museum" src="./museum.svg" alt="" />
+        <img id="food" src="./food.svg" alt="" />
+        <img id="hiking" src="./hiking.svg" alt="" />
+      </div>
+    </div>
+
+    <div id="container4">
+      <p>Why choose Tourz</p>
+      <img src="../../../../../cat.png alt="">
+      <img src="./hot-air-balloon.svg fill.svg" alt="" />
+      <img src="./diamond.svg fill.svg" alt="" />
+      <img src="./medal.svg fill.svg" alt="" />
+
+      <h1>Ultimate flexibility</h1>
+      <h1>Memorable experiences</h1>
+      <h1>Quality at our core</h1>
+      <h1>Award-winning support</h1>
+
+      <h2>
+        You're in control, with free cancellation and payment options to satisfy
+        any plan or budget.
+      </h2>
+      <h2>
+        Browse and book tours and activities so incredible, you'll want to tell
+        your friends.
+      </h2>
+      <h2>High-quality standards. Millions of reviews. A tourz company.</h2>
+      <h2>New price? New plan? No problem. We're here to help, 24/7.</h2>
+    </div>
+  </body>
+</html>
